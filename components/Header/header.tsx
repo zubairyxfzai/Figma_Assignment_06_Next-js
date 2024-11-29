@@ -20,10 +20,10 @@ export const Header = () => {
         <section className='gap-[10.5px] flex items-center pl-[30px]'>
           <Image src={"/Images/logo.svg"} alt='Logo' width={32.58} height={30.38}></Image>
           <h1 className='text-[25.07px] font-bold flex justify-between items-center'>Ddsgnr
-            <section className="md:hidden w-[250px] flex flex-col items-end gap-1  cursor-pointer">
-              <span className="block w-6 h-1 bg-black"></span>
-              <span className="block w-6 h-1 bg-black"></span>
-              <span className="block w-6 h-1 bg-black"></span>
+            <section className='md:hidden w-[250px] flex flex-col items-end gap-1  cursor-pointer'>
+              <span className='block w-6 h-1 bg-black'></span>
+              <span className='block w-6 h-1 bg-black'></span>
+              <span className='block w-6 h-1 bg-black'></span>
             </section>
           </h1>
         </section>

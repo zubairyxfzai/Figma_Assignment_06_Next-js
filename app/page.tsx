@@ -1,14 +1,16 @@
-import React from 'react'
+"use client";
+import React from 'react';
 import Header from '@/components/Header/header';
 import Hero from '@/components/Hero/hero';
-import Boxes from '@/components/Explore Courses/boxes'
+import Boxes from '@/components/Explore Courses/boxes';
 import Achievements from '@/components/Achievements/achievements';
-import { Courses } from '@/components/Popular Courses/courses';
-import { About } from '@/components/About Us/about';
-import { Testimonials } from '@/components/Testimonials/testimonials';
-import { Footer } from '@/components/Footer/footer';
+import Courses from '@/components/Popular Courses/courses';
+import About from '@/components/About Us/about';
+import Testimonials from '@/components/Testimonials/testimonials';
+import Footer from '@/components/Footer/footer';
+import type { NextPage } from 'next';
 
-export const Home = () => {
+const Home: NextPage = () => {
   return (
     <div>
       <Header />
