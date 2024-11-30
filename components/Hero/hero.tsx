@@ -10,8 +10,8 @@ export const Hero = () => {
         {/* Left Side  */}
         
           <section className='w-full h-full md:w-1/2 md:h-[249px] md:mt-[249px] py-16 px-6 md:pl-[80px] '>
-          <h1 className='w-[380px] h-[96px] md:w-[580px] md:h-[200px] font-bold text-[40px] md:text-[56px] mb-6 md:m-0'>Learn new skills online with ease</h1>
-          <p className='w-[380px] h-[54px] md:w-[480px] md:h-[120px] text-[18px] mb-6 md:m-0'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+          <h1 className='w-[380px] h-[96px] md:w-[500px] md:h-[200px] font-bold text-[40px] md:text-[56px] mb-6 md:m-0'>Learn new skills online with ease</h1>
+          <p className='w-[380px] h-[54px] md:w-[500px] md:h-[120px] text-[18px] mb-6 md:m-0'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
             <button className='w-[178px] md:w-[150px] h-[48px] border-[1px] border-black bg-black text-white rounded-[4px]'>Start learning now</button>
             <button className='w-[164px] md:w-[120px] h-[48px] border-[1px] border-black rounded-[4px] ml-3 '>Explore Courses</button>
           </section>
